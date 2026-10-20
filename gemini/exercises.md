@@ -7,6 +7,8 @@ Use these ids in `program.phases[].workouts[].exercises[].id`. `reps` is seconds
 | id | name | cat | unit | level | equipment |
 |---|---|---|---|---|---|
 | bw-superman | Superman | Core | reps | Beginner | Floor |
+| cb-crunch | Cable Crunch | Core | reps | Beginner | Cable |
+| cb-woodchop | Cable Woodchop | Core | reps | Beginner | Cable |
 | core-bicycle-crunch | Bicycle Crunch | Core | reps | Beginner | None |
 | core-copenhagen-plank | Copenhagen Plank | Core | s | Advanced | Box |
 | core-copenhagen-plank-knee | Bent-Knee Copenhagen Plank | Core | s | Intermediate | Box |
@@ -46,6 +48,8 @@ Use these ids in `program.phases[].workouts[].exercises[].id`. `reps` is seconds
 | kb-turkish-getup | Turkish Get-Up | Core | reps | Advanced | Kettlebell |
 | kb-windmill | Kettlebell Windmill | Core | reps | Advanced | Kettlebell |
 | l-sit | L-Sit | Core | s | Intermediate | Parallettes |
+| mc-ab-crunch | Ab Crunch Machine | Core | reps | Beginner | Machine |
+| mc-captains-chair-leg-raise | Captain's Chair Leg Raise | Core | reps | Beginner | Machine |
 | mountain-climber-plank | Mountain Climber Plank | Core | reps | Beginner | Floor |
 | plank | Plank | Core | s | Beginner | None |
 | reverse-mtn-climber | Reverse Mountain Climber | Core | reps | Intermediate | Floor |
@@ -73,6 +77,7 @@ Use these ids in `program.phases[].workouts[].exercises[].id`. `reps` is seconds
 | barbell-zercher-squat | Zercher Squat | Legs | reps | Advanced | Barbell |
 | bulgarian-split-squat | Bulgarian Split Squat | Legs | reps | Intermediate | Box |
 | calf-raise | Standing Calf Raise | Legs | reps | Beginner | None |
+| cb-pull-through | Cable Pull-Through | Legs | reps | Beginner | Cable |
 | db-bulgarian-split-squat | Dumbbell Bulgarian Split Squat | Legs | reps | Intermediate | Dumbbell |
 | db-calf-raise | Dumbbell Calf Raise | Legs | reps | Beginner | Dumbbell |
 | db-deadlift | Dumbbell Deadlift | Legs | reps | Beginner | Dumbbell |
@@ -126,6 +131,18 @@ Use these ids in `program.phases[].workouts[].exercises[].id`. `reps` is seconds
 | legs-tibialis-raise | Tibialis Raise | Legs | reps | Beginner | Wall |
 | legs-wall-sit | Wall Sit | Legs | s | Beginner | Wall |
 | lunge | Forward Lunge | Legs | reps | Beginner | None |
+| mc-glute-kickback | Glute Kickback Machine | Legs | reps | Beginner | Machine |
+| mc-hack-squat | Hack Squat Machine | Legs | reps | Beginner | Machine |
+| mc-hip-abduction | Hip Abduction Machine | Legs | reps | Beginner | Machine |
+| mc-hip-adduction | Hip Adduction Machine | Legs | reps | Beginner | Machine |
+| mc-leg-extension | Leg Extension | Legs | reps | Beginner | Machine |
+| mc-leg-press | Leg Press | Legs | reps | Beginner | Machine |
+| mc-leg-press-calf-raise | Leg Press Calf Raise | Legs | reps | Beginner | Machine |
+| mc-lying-leg-curl | Lying Leg Curl | Legs | reps | Beginner | Machine |
+| mc-seated-calf-raise | Seated Calf Raise | Legs | reps | Beginner | Machine |
+| mc-seated-leg-curl | Seated Leg Curl | Legs | reps | Beginner | Machine |
+| mc-smith-squat | Smith Machine Squat | Legs | reps | Beginner | Machine |
+| mc-standing-calf-raise | Standing Calf Raise Machine | Legs | reps | Beginner | Machine |
 | nordic-curl | Nordic Hamstring Curl | Legs | reps | Elite | Floor |
 | pistol-squat | Pistol Squat | Legs | reps | Advanced | None |
 | shrimp-squat | Shrimp Squat | Legs | reps | Elite | None |
@@ -167,6 +184,12 @@ Use these ids in `program.phases[].workouts[].exercises[].id`. `reps` is seconds
 | barbell-preacher-curl | Barbell Preacher Curl | Pull | reps | Intermediate | Barbell |
 | barbell-shrug | Barbell Shrug | Pull | reps | Beginner | Barbell |
 | barbell-upright-row | Barbell Upright Row | Pull | reps | Intermediate | Barbell |
+| cb-close-grip-pulldown | Close-Grip Lat Pulldown | Pull | reps | Beginner | Cable |
+| cb-curl | Cable Curl | Pull | reps | Beginner | Cable |
+| cb-face-pull | Cable Face Pull | Pull | reps | Beginner | Cable |
+| cb-lat-pulldown | Lat Pulldown | Pull | reps | Beginner | Cable |
+| cb-seated-row | Seated Cable Row | Pull | reps | Beginner | Cable |
+| cb-straight-arm-pulldown | Straight-Arm Pulldown | Pull | reps | Beginner | Cable |
 | chinup | Chin-ups | Pull | reps | Beginner | Bar |
 | db-bicep-curl | Dumbbell Bicep Curl | Pull | reps | Beginner | Dumbbell |
 | db-concentration-curl | Concentration Curl | Pull | reps | Intermediate | Dumbbell |
@@ -179,6 +202,10 @@ Use these ids in `program.phases[].workouts[].exercises[].id`. `reps` is seconds
 | kb-renegade-row | Kettlebell Renegade Row | Pull | reps | Advanced | Kettlebell |
 | kb-row-single-arm | Single-Arm Kettlebell Row | Pull | reps | Beginner | Kettlebell |
 | mantle-chinup | Mantle Chin-up | Pull | reps | Advanced | Bar |
+| mc-assisted-pullup | Assisted Pull-up Machine | Pull | reps | Beginner | Machine |
+| mc-preacher-curl | Machine Preacher Curl | Pull | reps | Beginner | Machine |
+| mc-reverse-pec-deck | Reverse Pec Deck (Rear Delts) | Pull | reps | Beginner | Machine |
+| mc-row | Machine Row | Pull | reps | Beginner | Machine |
 | one-arm-hang | One Arm Hang | Pull | s | Advanced | Bar |
 | pull-active-hang | Active Hang | Pull | s | Beginner | Bar |
 | pull-back-lever-adv-tuck | Advanced Tuck Back Lever | Pull | s | Intermediate | Bar |
@@ -253,6 +280,11 @@ Use these ids in `program.phases[].workouts[].exercises[].id`. `reps` is seconds
 | barbell-skull-crusher | Skull Crusher | Push | reps | Intermediate | Barbell |
 | box-bulgarian-pushup | Bulgarian Push-up | Push | reps | Intermediate | Box |
 | box-tricep-dip | Box Tricep Dip | Push | reps | Beginner | Box |
+| cb-crossover | Cable Crossover | Push | reps | Beginner | Cable |
+| cb-lateral-raise | Cable Lateral Raise | Push | reps | Beginner | Cable |
+| cb-overhead-triceps-extension | Overhead Cable Triceps Extension | Push | reps | Beginner | Cable |
+| cb-pushdown-bar | Triceps Pushdown (Bar) | Push | reps | Beginner | Cable |
+| cb-pushdown-rope | Triceps Pushdown (Rope) | Push | reps | Beginner | Cable |
 | db-arnold-press | Arnold Press | Push | reps | Intermediate | Dumbbell |
 | db-bench-press | Dumbbell Bench Press | Push | reps | Beginner | Dumbbell |
 | db-chest-fly | Dumbbell Chest Fly | Push | reps | Beginner | Dumbbell |
@@ -270,6 +302,11 @@ Use these ids in `program.phases[].workouts[].exercises[].id`. `reps` is seconds
 | kb-floor-press | Kettlebell Floor Press | Push | reps | Beginner | Kettlebell |
 | kb-overhead-press | Kettlebell Overhead Press | Push | reps | Intermediate | Kettlebell |
 | kb-push-press | Kettlebell Push Press | Push | reps | Advanced | Kettlebell |
+| mc-assisted-dip | Assisted Dip Machine | Push | reps | Beginner | Machine |
+| mc-chest-press | Chest Press Machine | Push | reps | Beginner | Machine |
+| mc-incline-chest-press | Incline Chest Press Machine | Push | reps | Beginner | Machine |
+| mc-pec-deck | Pec Deck (Machine Fly) | Push | reps | Beginner | Machine |
+| mc-shoulder-press | Shoulder Press Machine | Push | reps | Beginner | Machine |
 | par-dip | Parallette Dips | Push | reps | Intermediate | Parallettes |
 | par-pike-pushup | Parallette Pike Push-ups | Push | reps | Intermediate | Parallettes |
 | pike-pushup | Pike Push-ups | Push | reps | Beginner | None |
